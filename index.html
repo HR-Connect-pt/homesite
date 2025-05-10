@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HR Connect - Connecting Ideas</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Connect - Mobile App Development Services | Android & iOS</title>
+    <meta name="description" content="Specialized in innovative mobile application development for Android and iOS. We create digital solutions that simplify and enrich users' lives.">
+    <meta name="keywords" content="mobile app development, Android development, iOS development, digital solutions, app developer, custom mobile apps, Portuguese app developer">
+    <meta name="author" content="HR Connect">
+    <link rel="canonical" href="https://www.hrconnect.pt">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="PT-17">
+    <meta name="geo.placename" content="Vila Real">
+    <meta name="geo.position" content="41.2954;-7.7462">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="HR Connect - Mobile App Development Services | Android & iOS">
+    <meta property="og:description" content="Specialized in innovative mobile application development. Creating digital solutions that transform ideas into reality.">
+    <meta property="og:url" content="https://www.hrconnect.pt">
+    <meta property="og:site_name" content="HR Connect">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:locale:alternate" content="pt_PT">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HR Connect - Mobile App Development Services">
+    <meta name="twitter:description" content="Innovative mobile application development for Android and iOS. Creating digital solutions that transform ideas into reality.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="alternate" hreflang="x-default" href="https://www.hrconnect.pt">
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
+    <script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "ProfessionalService",
+        "name": "HR Connect",
+        "description": "Innovative mobile application development for Android and iOS",
+        "url": "https://www.hrconnect.pt",
+        "logo": "https://www.hrconnect.pt/assets/img/logo.png",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Montalegre",
+            "addressRegion": "Vila Real",
+            "postalCode": "5470-261",
+            "addressCountry": "PT"
+        },
+        "email": "public@hrconnect.pt",
+        "vatID": "PT518405915",
+        "sameAs": [],
+        "areaServed": {
+            "@type": "Country",
+            "name": "Portugal"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Mobile Development Services",
+            "itemListElement": [{
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Android App Development"
+                }
+            }, {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "iOS App Development"
+                }
+            }]
+        }
+    }</script>
   <!-- Header & Navigation -->
   <header class="site-header" role="banner">
     <div class="container header-flex">
-      <div class="logo">
-        <img src="assets/img/logo.png" alt="HR Connect Logo" width="84" height="84">
+      <div class="logo" itemscope itemtype="http://schema.org/Organization">
+        <a href="#home" class="logo-link">
+          <img src="assets/img/logo.png" alt="HR Connect - Mobile App Development Company Logo" width="84" height="84" itemprop="logo">
+        </a>
       </div>
       <nav class="main-nav" role="navigation" aria-label="Main navigation">
         <ul class="desktop-menu">
@@ -128,7 +199,8 @@
               placeholder="John Doe" 
               data-en-placeholder="John Doe" 
               data-pt-placeholder="João Silva" 
-              required aria-required="true">
+              required aria-required="true"
+              autocomplete="name">
           </div>
           <div class="form-group">
             <label for="email" data-en="Email" data-pt="Email">Email</label>
@@ -136,7 +208,8 @@
               placeholder="john@example.com" 
               data-en-placeholder="john@example.com" 
               data-pt-placeholder="joao@exemplo.com" 
-              required aria-required="true">
+              required aria-required="true"
+              autocomplete="email">
           </div>
           <div class="form-group">
             <label for="message" data-en="Message" data-pt="Mensagem">Message</label>
@@ -144,7 +217,8 @@
               placeholder="Tell us about your questions..." 
               data-en-placeholder="Tell us about your questions..." 
               data-pt-placeholder="Conte-nos sobre as suas questões..." 
-              required aria-required="true"></textarea>
+              required aria-required="true"
+              autocomplete="off"></textarea>
           </div>
           <button type="submit" data-en="Send" data-pt="Enviar">Send</button>
         </form>
