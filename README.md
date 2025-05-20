@@ -1,4 +1,4 @@
-# HRConnect Website
+# HRConnect Institutional Site
 
 ## Overview
 HRConnect is a professional website for a mobile app development company based in Portugal. The site showcases the company's services in developing innovative and intuitive mobile applications for specific niches on Android and iOS platforms.
